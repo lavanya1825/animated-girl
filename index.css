@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<!========animated girl========>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--================== Design Provide By shayan-mahmood ==================-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./img/favicon.png">
+    <style>
+        body {
+            background: black;
+            margin-top: 200px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        
+        #typing {
+            width: 0ch;
+            color: red;
+            float: left;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 4.392386530014641vw;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 5s steps(22) 1s infinite alternate;
+        }
+        
+        #typing span {
+            color: red;
+        }
+        
+        #crow {
+            float: left;
+            color: white;
+            font-family: consolas;
+            font-weight: bold;
+            font-size: 4.392386530014641vw;
+            animation: crow 0.5s linear 0s infinite;
+        }
+        
+        @keyframes typing {
+            from {
+                width: 0ch;
+            }
+            to {
+                width: 22.5ch;
+            }
+        }
+        
+        @keyframes crow {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        .OP {
+            color: blue !important;
+            font-size: 6.222547584187408vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="typing">I AM <span class="PO">An animated girl</span>
+        <BR/> <span class="OP">Hello!</span>
+    </div>
+    <div id="crow">|</div>
+    <script>
+    </script>
+
+</body>
+
+</html>
+<style>
+    body {
+      background: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .girl {
+      position: relative;
+      width: 150px;
+      height: 300px;
+    }
+
+    /* Head */
+    .head {
+      width: 100px;
+      height: 100px;
+      background: #ffccbc;
+      border-radius: 50%;
+      position: absolute;
+      top: 0;
+      left: 25px;
+    }
+
+    /* Hair */
+    .hair {
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      background: #5d4037;
+      border-radius: 60% 60% 40% 40%;
+      top: -10px;
+      left: 15px;
+      z-index: -1;
+    }
+
+    /* Eyes */
+    .eye {
+      width: 10px;
+      height: 10px;
+      background: black;
+      border-radius: 50%;
+      position: absolute;
+      top: 40px;
+      animation: blink 4s infinite;
+    }
+
+    .eye.left {
+      left: 35px;
+    }
+
+    .eye.right {
+      right: 35px;
+    }
+
+    @keyframes blink {
+      0%, 90%, 100% {
+        height: 10px;
+      }
+      95% {
+        height: 1px;
+      }
+    }
+
+    /* Body */
+    .body {
+      width: 80px;
+      height: 120px;
+      background: blue;
+      position: absolute;
+      top: 100px;
+      left: 35px;
+      border-radius: 20px;
+    }
+
+    /* Arms */
+    .arm {
+      width: 20px;
+      height: 80px;
+      background: #ffccbc;
+      position: absolute;
+      top: 110px;
+    }
+
+    .arm.left {
+      left: 0;
+      transform-origin: top right;
+      animation: wave 2s infinite;
+    }
+
+    .arm.right {
+      right: 0;
+    }
+
+    @keyframes wave {
+      0%, 100% { transform: rotate(0deg); }
+      50% { transform: rotate(30deg); }
+    }
+
+    /* Legs */
+    .leg {
+      width: 20px;
+      height: 100px;
+      background: #ffccbc;
+      position: absolute;
+      top: 220px;
+    }
+
+    .leg.left {
+      left: 40px;
+    }
+
+    .leg.right {
+      right: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="girl">
+    <div class="hair"></div>
+    <div class="head">
+      <div class="eye left"></div>
+      <div class="eye right"></div>
+    </div>
+    <div class="body"></div>
+    <div class="arm left"></div>
+    <div class="arm right"></div>
+    <div class="leg left"></div>
+    <div class="leg right"></div>
+  </div>
+</body>
+</html>
+
