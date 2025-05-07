@@ -1,0 +1,29 @@
+ Steps to Create:
+Create the HTML Structure:
+
+Make a container for the girl.
+
+Inside that, create separate div elements for the head, hair, eyes, mouth, body, arms, and legs.
+
+Style with CSS:
+
+Use width, height, and background-color to shape and color each part.
+
+Use border-radius to make circular shapes like the head and eyes.
+
+Use position: absolute to place body parts correctly on top of each other.
+
+Add Animation:
+
+Use @keyframes in CSS to animate movements like:
+Blinking eyes by changing their height.
+
+Waving arm by rotating it.
+
+Apply animations using the animation property on the parts you want to move.
+
+View in Browser:
+
+Save the file with a .html extension.
+
+Open it in any browser to see the animated girl.
